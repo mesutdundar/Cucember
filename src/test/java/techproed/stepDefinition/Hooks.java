@@ -46,6 +46,7 @@ public class Hooks {
             Driver.closeDriver();
         }
 
+
     }
     //Bu method fail olan scenario'larda fail olan kısmın resmini rapora ekleyecektir.
 }
