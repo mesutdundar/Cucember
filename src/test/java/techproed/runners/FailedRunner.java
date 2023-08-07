@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         "junit:target/xml-report/cucumber.xml",
         "rerun:TestOutput/failed_scenario.txt"},
         //rerun ile belirttiğimiz dosyada fail olan senaryolar tutulur.
-        features = "@TestOutput/failed_scenario.txt",
+        features = "@TestOutput/failed_scenario.txt",  /** Buraya rerun uzantisini yaziyoruz.Basina @ koyuyoruz */
         glue = {"techproed/stepDefinition"},
         dryRun = false,//-->true seçersek scenarioları kontrol eder browser'ı çalıştırmaz
         monochrome = true//-->true kullanırsak konsoldaki çıktılar tek renk(siyah) olur

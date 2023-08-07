@@ -21,7 +21,7 @@ public class Hooks {
      gerek kalmaz.Glue parametresinde stepDefinition package'ı tanımlı olduğu için direkt hook class'ınıda kullanabiliriz.
      */
     @Before//import io.cucumber.java.Before;
-    public void setUp() throws Exception {
+    public void setUp() throws java.lang.Exception {
         System.out.println("Scenariolar calismaya basladi");
     }
     @Before("@arac2")
